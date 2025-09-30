@@ -2,10 +2,13 @@
   "name": "npm",
   "version": "1.0.0",
   "description": "This is an example program to show how one could traverse an org structure to find common linkages. ",
-  "main": "/src/run.sh",
+  "type": "module",
+  "main": "src/run.ts",
   "scripts": {
-    "start": "./src/run.sh",
-    "test": "echo \"Error: no test specified\""
+    "build": "tsc",
+    "start": "tsc && node dist/run.js",
+    "test": "echo \"Error: no test specified\"",
+    "clean": "rm -r node_modules"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/abeatte/org-structure-example/issues"
   },
-  "homepage": "https://github.com/abeatte/org-structure-example#readme"
+  "homepage": "https://github.com/abeatte/org-structure-example#readme",
+  "dependencies": {
+    "typescript": "^5.9.2",
+    "uuid": "^13.0.0"
+  }
 }
