@@ -1,0 +1,19 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is an example program to show how one could traverse an org structure to find common linkages. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeatte/org-structure-example.git"
+  },
+  "author": "abeatte@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeatte/org-structure-example/issues"
+  },
+  "homepage": "https://github.com/abeatte/org-structure-example#readme"
+}
