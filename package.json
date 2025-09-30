@@ -2,9 +2,10 @@
   "name": "npm",
   "version": "1.0.0",
   "description": "This is an example program to show how one could traverse an org structure to find common linkages. ",
-  "main": "index.js",
+  "main": "/src/run.sh",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./src/run.sh",
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
