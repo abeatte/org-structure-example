@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/abeatte/org-structure-example#readme",
   "dependencies": {
+    "chalk": "^5.6.2",
     "typescript": "^5.9.2",
     "uuid": "^13.0.0"
   }
